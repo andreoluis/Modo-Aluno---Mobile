@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         val layout = LinearLayout(this).apply {
-            orintation = LinearLayout.VERTICAL
+            orientation = LinearLayout.VERTICAL
             gravity = Gravity.CENTER_HORIZONTAL
             setPadding(32, 48, 32, 32)
         }
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         
         val resposta = TextView(this).apply {
             text = "Nenhuma tarefa adicionada."
-            texSize = 18f
+            textSize = 18f
         }
     
         botao.setOnClickListener {
