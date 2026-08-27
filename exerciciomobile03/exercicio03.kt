@@ -39,10 +39,10 @@ class MainActivity : AppCompatActivity() {
             resposta.text = "Olá. ${nome.text.toString().trim()}!"
         }
 
-        layout.add.View(titulo)
-        layout.add.View(nome)
-        layout.add.View(botao)
-        layout.add.View(resposta)
+        layout.addView(titulo)
+        layout.addView(nome)
+        layout.addView(botao)
+        layout.addView(resposta)
         setContentView(layout)
     }
 }
