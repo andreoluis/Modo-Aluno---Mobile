@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
         val informacoes = """
         Fabricante: ${Build.MANUFACTURER}
         Modelo: ${Build.MODEL}
-        android: ${Build.VERSION.RELEASE}
-        sdk: ${Build.version.sdk_int}
+        Android: ${Build.VERSION.RELEASE}
+        SDK: ${Build.VERSION.SDK_INT}
     """.trimIndent()  
 
     val texto = TextView(this)  
